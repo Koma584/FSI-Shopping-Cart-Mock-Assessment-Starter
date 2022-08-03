@@ -3,6 +3,9 @@ function updateQuantity(displayQuantity) {
   let num = document.querySelector(".total-quantity");
   quantity.innerHTML = displayQuantity;
 }
+let num = 1;
+
+//button stuff
 let add = document.getElementById("quantity-up");
 //add button function
 add.addEventListener("click", function () {
@@ -11,7 +14,7 @@ add.addEventListener("click", function () {
 });
 
 let sub = document.getElementById("quantity-down");
-//add button function
+//subtract button function
 sub.addEventListener("click", function () {
   //num not named
   if (num > 0) {
