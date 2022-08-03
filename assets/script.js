@@ -1,7 +1,7 @@
 //function to change disaplay
 function updateQuantity(displayQuantity) {
   let num = document.querySelector(".total-quantity");
-  quantity.innerHTML = displayQuantity;
+  num.innerHTML = displayQuantity;
 }
 let num = 1;
 
