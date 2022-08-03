@@ -7,7 +7,7 @@ let add = document.getElementById("quantity-up");
 //add button function
 add.addEventListener("click", function () {
   num++;
-  updateQuantity(`Quantity: ${quantity}`);
+  updateQuantity(`Quantity: ${num}`);
 });
 
 let sub = document.getElementById("quantity-down");
