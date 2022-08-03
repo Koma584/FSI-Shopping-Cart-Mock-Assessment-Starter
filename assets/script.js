@@ -6,6 +6,9 @@ function updateQuantity(displayQuantity) {
 let num = 1;
 
 //button stuff
+const quantDown = document.querySelector("#quantity-down");
+const quantUp = document.querySelector("#quantity-up");
+//more button stuff
 let add = document.getElementById("quantity-up");
 //add button function
 add.addEventListener("click", function () {
